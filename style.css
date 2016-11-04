@@ -1,5 +1,5 @@
 body {
-  background-color: linear-gradient(-225deg, rgb(200,197,194) 0%, rgb(251,186,0) 50%) ;
+  background-color: rgb(103,102,99);
 }
 
 h1 {
@@ -25,4 +25,18 @@ text-align: center;}
 
 .contain-info {
   margin-bottom: 25px;
+}
+
+.head-container {
+  margin-bottom: 20px;
+}
+.container-div {
+  background-color: #F4F3F2;
+}
+
+.row {
+  padding: 40px;
+}
+.col-sm-3 {
+  margin: 20px solid: #000;
 }
