@@ -1,6 +1,6 @@
 
 body {
-  background-color: #FFFF07;
+  background-color: #F5CF9E;
   margin: 0px;
 }
 
@@ -19,4 +19,31 @@ ul li {
 }
 .content-section {
   margin: 200px 80px;;
+}
+
+.container  {
+  background-image: url('images/banner2.jpg');
+  background-size: cover !important;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px 20px#888888;
+  margin: auto;
+  color: white;
+}
+.section2 {
+  margin-bottom: 200px;
+}
+.content-section {
+  box-shadow: 10px 10px 5px #green;
+  border-radius: 8px;
+}
+.col-content {
+  padding: 40px;
+  border-radius: 8px;
+  border: solid;
+}
+.story {
+  margin-bottom: 30px;
+}
+.section3 {
+
 }
