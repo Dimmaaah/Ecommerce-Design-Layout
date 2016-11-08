@@ -1,42 +1,22 @@
+
 body {
-  background-color: rgb(103,102,99);
-}
-
-h1 {
-  font-family: sans-serif;;
-
-}
-
-img {
-  border-radius: 9%;
+  background-color: #FFFF07;
+  margin: 0px;
 }
 
 .banner {
-  height: 50vh; /* 1vh => 1% of viewport height */
-  background-size: cover;
-  margin-bottom: 20px;
-  border-radius: 7% ;
+  background-size: cover !important;
+  height: 75vh;
+  display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
+  color: white;
 }
 
-.banner-content p {
-text-align: center;}
-
-.contain-info {
-  margin-bottom: 25px;
+ul li {
+  display: inline-block;
 }
-
-.head-container {
-  margin-bottom: 20px;
-}
-.container-div {
-  background-color: #F4F3F2;
-}
-
-.row {
-  padding: 40px;
-}
-.col-sm-3 {
-  margin: 20px solid: #000;
+.content-section {
+  margin: 200px 80px;;
 }
