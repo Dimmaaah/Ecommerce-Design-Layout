@@ -1,21 +1,12 @@
 
 body {
-background-image: url('images/bee.jpg');
-background-size: cover;
-background-repeat: repeat-x;
-background-x-position: center;
-background-y-position: top;
-background-attachment: fixed;
-background-color: #cccccc;
-margin-top: 0px;
-margin-right: 0px;
-margin-bottom: 0px;
-margin-left: 0px;
+  background-color: #F5CF9E;
+  margin: 0px;
 }
 
 .banner {
   background-size: cover !important;
-  height: 60vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,12 +16,14 @@ margin-left: 0px;
 
 ul li {
   display: inline-block;
+  justify-content: center;
+  align-items: center;
 }
 .content-section {
   margin: 200px 80px;;
 }
 
-.container2  {
+.container  {
   background: linear-gradient(to right, rgba(255,255,255,0),
   rgba(255,255,255,1)), url(images/banner2.jpg);
   background-size: cover !important;
@@ -39,14 +32,8 @@ ul li {
   margin: auto;
   color: white;
 }
-.section1 {
-  height: 200px;
-}
-
 .section2 {
   margin-bottom: 200px;
-  background-color: #FEED46;
-  padding: 100px;
 }
 .content-section {
   box-shadow: 10px 10px 5px #green;
@@ -56,8 +43,6 @@ ul li {
   padding: 40px;
   border-radius: 8px;
   border: solid;
-  background-color: #FEED46;
-  box-shadow: 5px 5px 5px 5px#888888;
 }
 .story {
   margin-bottom: 30px;
@@ -65,9 +50,10 @@ ul li {
 .section3 {
 
 }
+.navcontent {
+  display: inline-block;
 
-.footer {
-  background-color: #FEED46;
-  padding: 20px;
-  margin-top: 70px;
+}
+.navigation {
+display: inline-block;
 }
