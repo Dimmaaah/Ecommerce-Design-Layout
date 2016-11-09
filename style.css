@@ -69,5 +69,27 @@ ul li {
 .footer {
   background-color: #FEED46;
   padding: 20px;
-  margin-top: 70px;
+  margin-top: 100px;
+}
+.navbar {
+  background-color: #FEED46;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.navbar:hover {
+  opacity: 90%;
+}
+
+.products {
+  background-color: #FEED46;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow:  5px 5px 5px 5px#888888;
+
+}
+
+.product {
+  border: solid;
 }
