@@ -27,7 +27,7 @@ ul li {
   display: inline-block;
 }
 .content-section {
-  margin: 200px 80px;;
+  margin: 200px 80px;
 }
 
 .container2  {
@@ -38,9 +38,6 @@ ul li {
   box-shadow: 10px 10px 5px 20px#888888;
   margin: auto;
   color: white;
-}
-.section1 {
-  height: 200px;
 }
 
 .section2 {
@@ -92,4 +89,46 @@ ul li {
 
 .product {
   border: solid;
+}
+.card {
+  background-color: rgba(14,134,237, .4);
+  margin-bottom: 35px;
+}
+.card img{
+size: 100px;
+width:100px;
+margin-top: 30px;
+background-color: black;
+
+}
+.container-content {
+  background-color: white;
+}
+.link ul li {
+  font-size: 30px;
+  text-align: center;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.link ul li:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.contentt {
+  background-color: rgba(253, 215, 48, .4);
+  padding-top: 100px;
+  padding-right: 50px;
+}
+
+.divimage {
+  background-image: url('images/photo.jpg');
+  height: 300px;
+  width: 480px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+.btn-warning {
 }
