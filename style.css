@@ -34,10 +34,12 @@ ul li {
   background: linear-gradient(to right, rgba(255,255,255,0),
   rgba(255,255,255,1)), url(images/banner2.jpg);
   background-size: cover !important;
+  background-position: center;
   border-radius: 8px;
   box-shadow: 10px 10px 5px 20px#888888;
   margin: auto;
   color: white;
+  background-size: 100%;
 }
 
 .section2 {
@@ -60,21 +62,28 @@ ul li {
   margin-bottom: 30px;
 }
 .section3 {
+  background-color: green;
 
 }
 
 .footer {
     background-color: rgba(253, 215, 48, .4);
 }
+/*
+.navbar {
+  font-size: 30px;
+
+}*/
 .navbar ul li{
   text-align: center;
+  padding: 20px 0px;
 }
-/*.navbar {
+.navbar {
   background-color: #FEED46;
   margin-bottom: 0px;
-  font-size: 20px;
+  font-size: 22px;
   font-family: monospace;
-}*/
+}
 
 .navbar:hover {
   opacity: 90%;
@@ -91,13 +100,13 @@ ul li {
 .product {
   border: solid;
 }
-.card {
+.card1 {
   background-color: rgba(14,134,237, .4);
   margin-bottom: 35px;
   padding: 20px;
   border-radius: 8px;
 }
-.card img{
+.card1 img{
 width:100%;
 margin-top: 30px;
 background-color: black;
@@ -120,7 +129,7 @@ background-color: black;
 
 .contentt {
   background-color: rgba(253, 215, 48, .4);
-  padding-top: 100px;
+  padding: 100px 2% 50px 2%;
 }
 
 .divimage {
@@ -138,8 +147,12 @@ background-color: black;
   height: 600px;
   border-radius:6px;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   box-shadow: 2px 2px 2px;
+  margin: 70px;
+  background-position: center center;
+
+
 
 }
 .wrapper {
@@ -169,10 +182,10 @@ background-color: black;
 }
 
 }
-.card {
+.card1 {
   padding: 20px;
 }
-.card h3 {
+.card1 h3 {
   padding-bottom: 50px;
 }
 .more {
@@ -235,6 +248,47 @@ background-color: black;
   border-radius: 3px;
   margin-bottom: 30px;
 }
+.created_at {
+  float: left;
+}
 
 
 /* products */
+
+
+
+
+
+/* about*/
+
+.banner_about {
+  background-image: url('images/photo.jpg');
+  background-size: cover !important;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.about_us {
+  float: right;
+}
+
+.comment_row {
+  margin-bottom: 20px;
+}
+.footer {
+  background-color: black;
+  text-align: center;padding-top: 30px;
+}
+/*.navlist_footer li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 25px;
+  width: 30%
+  padding: 20px;
+  margin-bottom: 30px 20px;
+}
+*/
