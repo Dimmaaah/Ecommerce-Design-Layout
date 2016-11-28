@@ -55,6 +55,7 @@ p{
 .footer {
   background-color: black;
   text-align: center;padding-top: 30px;
+  color: white;
 }
 
 
@@ -67,4 +68,7 @@ p{
   margin-bottom: 0px;
   font-size: 22px;
   font-family: monospace;
+}
+.navlist_footer li {
+  list-style-type: none;
 }
